@@ -1,0 +1,64 @@
+body {
+	background: #000000;
+}
+
+.face {
+	background-color: black;
+	position:absolute;
+	display: inline-block;
+	
+} 
+
+.face .new {
+	display:none;
+	position: absolute;
+	top:0;
+	left:0;
+	z-index:99;
+}
+
+.face:hover .new {
+	display: inline;
+}
+
+#vid {
+	background-color: black;
+	margin-top: 300px;
+}
+
+
+#sister {
+	margin-top: -300px;
+	margin-left: 100px;
+
+}
+
+#girl {
+	margin-top: -400px;
+	margin-left: 1450px;
+}
+
+#beard {
+	margin-left: 725px;
+	margin-top:25px;
+}
+
+#yunglad {
+	margin-left:975px;
+	margin-top:-600px;
+}
+
+#sleeper {
+	margin-left: 250px;
+
+}
+
+#nonsmoker {
+	margin-left:1150px;
+	margin-top: 50px;
+}
+
+#trophy {
+	margin-left: 425px;
+	margin-top: -600px;
+}
