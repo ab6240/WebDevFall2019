@@ -1,0 +1,46 @@
+body {
+	background: #000000;
+}
+
+
+.face {
+	background-color: black;
+	position:relative;
+	display: inline-block;
+	margin: 250px;
+	
+} 
+
+.face .new {
+	display:none;
+	position: absolute;
+	top:0;
+	left:0;
+	z-index:99;
+}
+
+.face:hover .new {
+	display: inline;
+}
+
+/*#hover: after{
+	background-color: green;
+	display: table-cell;
+	height: 900px;
+	vertical-align: middle;
+	content: FOTO_20190922_194008.jpg ;
+}
+*/
+
+/* #distort{
+	background-color: green;
+	opacity: 0;
+	transition: opacity 1.5s linear;
+}
+
+#trig1: hover + iframe {
+	opacity: 1;
+	transition: opacity 1.5s linear;
+}
+
+*/
