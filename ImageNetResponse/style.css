@@ -2,10 +2,12 @@ body {
 	background: #000000;
 }
 
+
 .face {
 	background-color: black;
-	position:absolute;
+	position:relative;
 	display: inline-block;
+	margin: 250px;
 	
 } 
 
@@ -21,47 +23,24 @@ body {
 	display: inline;
 }
 
-#vid {
-	background-color: black;
-	margin-top: 300px;
-	margin-left: 500px;
-	margin-right: 500px;
-	border-color: green;
+/*#hover: after{
+	background-color: green;
+	display: table-cell;
+	height: 900px;
+	vertical-align: middle;
+	content: FOTO_20190922_194008.jpg ;
+}
+*/
+
+/* #distort{
+	background-color: green;
+	opacity: 0;
+	transition: opacity 1.5s linear;
 }
 
-
-#sister {
-	margin-top: -300px;
-	margin-left: 100px;
-
+#trig1: hover + iframe {
+	opacity: 1;
+	transition: opacity 1.5s linear;
 }
 
-#girl {
-	margin-top: -400px;
-	margin-left: 1450px;
-}
-
-#beard {
-	margin-left: 725px;
-	margin-top:25px;
-}
-
-#yunglad {
-	margin-left:1275px;
-	margin-top:-800px;
-}
-
-#sleeper {
-	margin-left: 250px;
-
-}
-
-#nonsmoker {
-	margin-left:1150px;
-	margin-top: 50px;
-}
-
-#trophy {
-	margin-left: 150px;
-	margin-top: -675px;
-}
+*/
