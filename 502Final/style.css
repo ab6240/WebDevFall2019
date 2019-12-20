@@ -1,0 +1,128 @@
+body {
+	background: #000000;
+	display: grid;
+	grid-template-columns: 50% 50%;
+  	grid-template-rows: 40% 10% 10% 10% 10% 10%;
+}
+
+@font-face { font-family: Cako; font-weight: Black; src: url(typeface/Cako Black.otf); }
+@font-face { font-family: Cako; font-weight: Black-Italic; src: url(typeface/Cako Black Italic.otf); }
+@font-face { font-family: Cako; font-weight: src: url(typeface/Cako Regular.otf); }
+@font-face { font-family: Cako; font-weight: Italic; src: url(typeface/Cako Regular Italic.otf); } 
+
+.contentBox{
+	display: flex;
+	flex-direction: column;
+	align-content: flex-end;
+	justify-content: center;
+	flex-wrap: wrap-reverse;
+	margin-left: 80px;
+	font-family: Cako, Black;
+	text-decoration: none;
+}
+
+#filterID{
+	grid-column-start: 2;
+	grid-row-start: 1;
+	font-family: consolas;
+	font-size: 20px;
+	margin-top: 135px;
+	margin-left: -30px;
+	color: #9900ff;
+}
+
+#filterID a{
+	color:  #9900ff;
+	text-decoration: none;
+}
+
+#content-1{
+	grid-column-start: 1;
+	grid-row-start: 3;
+	color: rgb(255,0,255);
+}
+
+#content-2{
+	grid-column-start: 1;
+	grid-row-start: 4;
+	color: rgb(200,250,0);
+}
+
+#content-3 {
+	grid-column-start: 1;
+	grid-row-start: 5;
+	color: rgb(225,0,125);
+}
+
+#content-4 {
+	grid-column-start: 1;
+	grid-row-start: 6;
+	color: rgb(255,85,25);
+}
+
+#content-5 {
+	grid-column-start: 1;
+	grid-row-start: 7;
+	color: yellow;
+}
+
+#content-6 {
+	grid-column-start: 1;
+	grid-row-start: 8;
+	color: cyan;
+}
+
+
+#siteLogo{
+	grid-column-start: 1;
+	grid-row-start: 1;
+	margin-left: 80px;
+	margin-top: 80px;
+
+}
+
+#siteLogo #navbar a{
+	margin-left: 20px;
+	margin-top: 20px;
+	color:  #9900ff;
+	text-decoration: none;
+	font-family: consolas;
+}
+
+#siteLogo #navbar p{
+	margin-left: 20px;
+	margin-top: 20px;
+	color:  #9900ff;
+	text-decoration: none;
+	font-family: consolas;
+}
+
+
+#filterSpacer{
+	grid-column-start: 1;
+	grid-row-start: 2;
+	margin-top: 50px;
+}
+
+.contentBox .contentItem {
+	font-size: 60px;
+}
+
+.contentBox .contentItem a{
+	text-decoration: none;
+}
+.contentBox .itemTag {
+	z-index: 999;
+	margin-left: 5px;
+}
+
+.contentBox .itemTag .performance {
+}
+
+.contentBox .itemTag .installation {
+}
+
+.dropdown {
+	display: none;
+}
+

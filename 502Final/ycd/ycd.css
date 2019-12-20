@@ -1,0 +1,26 @@
+body {
+	background: rgb(255,0,255);
+	display: grid;
+  	grid-template-rows: 40% 20% 20% 20%;
+}
+
+@font-face { font-family: Cako; font-weight: Black; src: url(./typeface/Cako Black.otf); }
+@font-face { font-family: Cako; font-weight: Black-Italic; src: url(./typeface/Cako Black Italic.otf); }
+@font-face { font-family: Cako; font-weight: src: url(./typeface/Cako Regular.otf); }
+@font-face { font-family: Cako; font-weight: Italic; src: url(./typeface/Cako Regular Italic.otf); } 
+
+#title {
+	grid-column-start: 1;
+	grid-row-start: 1;
+	font-family: Cako, Black;
+	color: rgb(200,250,0);
+	font-size: 60px;
+	margin-top: 130px;
+}
+
+#logo {
+	grid-column-start: 1;
+	grid-row-start: 1;
+	margin-left: 20px;
+	margin-top: 20px;
+}
