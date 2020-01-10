@@ -36,6 +36,11 @@ body {
 	text-decoration: none;
 }
 
+#filterID .imagecard{
+	margin-left: -50px;
+	margin-top: 35px;
+}
+
 #content-1{
 	grid-column-start: 1;
 	grid-row-start: 3;
@@ -120,6 +125,18 @@ body {
 }
 
 .contentBox .itemTag .installation {
+}
+
+.contentBox .itemTag .mv{
+}
+
+.contentBox .itemTag .film{
+}
+
+.contentBox .itemTag .digital{
+}
+
+.contentBox .itemTag .analog{
 }
 
 .dropdown {
